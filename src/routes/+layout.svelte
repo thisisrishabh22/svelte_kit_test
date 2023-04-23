@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Developed by <a href="https://geeekgod.ml" target="_blank" rel="noopener noreferrer">Rishabh Singh</a> using <a href="https://svelte.dev" target="_blank" rel="noopener noreferrer">SvelteKit</a></p>
 	</footer>
 </div>
 
