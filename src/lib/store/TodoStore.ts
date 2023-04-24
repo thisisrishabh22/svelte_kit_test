@@ -1,4 +1,4 @@
-interface Todo {
+export interface Todo {
   id: string;
   title: string;
   completed: boolean;
@@ -20,7 +20,7 @@ todos.subscribe((todos) => {
 });
 
 export const addTodo = (title: string) => {
-  todos.update((todos) => [...todos, { id: uuid(), title, completed: false }]);
+  todos.update((todos) => [{ id: uuid(), title, completed: false }, ...todos]);
 }
 
 export const deleteTodo = (id: string) => {
