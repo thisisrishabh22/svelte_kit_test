@@ -1,3 +1,7 @@
+<script>
+  import AddTodo from "$lib/components/todo/AddTodo.svelte";
+
+</script>
 <svelte:head>
   <title>Home</title>
   <meta name="description" content="Todo app built in sveltekit" />
@@ -13,6 +17,8 @@
 					"
   >
     <h1 class="text-2xl font-bold text-gray-three">Dashboard</h1>
-    <div class="mt-10" />
+    <div class="mt-10">
+      <AddTodo />
+    </div>
   </main>
 </div>
